@@ -1,0 +1,291 @@
+/* <!-- 顶部 --> */
+.top {
+	/* width: 100%; */
+	background-color: #f8f8f8;
+	border: 1px solid #e8e8e8;
+}
+
+/* 字体移动到时变色 */
+.top a:hover {
+	color: #ff8049;
+}
+
+/* 头部导航栏 */
+.topnav {
+	width: 1000px;
+	margin: auto;
+}
+
+/* 头部高度塌陷 */
+.topnav::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/* <!-- 版本 --> */
+.edition {
+	width: 800px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	float: left;
+	height: 30px;
+}
+
+/* 版本的图片 | */
+.edition img {
+	width: 25px;
+	height: 25px;
+}
+
+/* 版本的字 */
+.ednm {
+	align-items: auto;
+	font: 12px '宋体';
+	color: #7a7a7a;
+
+}
+
+.ednm a {
+	color: #7a7a7a;
+	text-decoration: none;
+}
+
+/* 用户登入注册 */
+.userinfo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	float: right;
+}
+
+.userinfo img {
+	width: 25px;
+	height: 25px;
+}
+
+/* 用户登入注册的字 */
+.usernm {
+	align-items: auto;
+	font-size: 12px;
+	color: #7a7a7a;
+}
+
+.usernm a {
+	color: #7a7a7a;
+	text-decoration: none;
+}
+
+
+/* 搜索 */
+.sea {
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.seach {
+	width: 1000px;
+	height: 70px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* 搜索logo */
+.seachimg {
+	margin-top: 5px;
+}
+
+.seachimg img {
+	width: 193px;
+	height: 40px;
+}
+
+/* 搜索的图标 */
+.btnimg {
+	width: 32px;
+	height: 32px;
+	background-color: #fc6b2d;
+	border: none;
+	cursor: pointer;
+}
+
+.btnimg img {
+	width: 16px;
+	height: 16px;
+	margin-top: 5px;
+}
+
+/* 搜索整个框 */
+.seachinput {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+/* input */
+.seachinput input {
+	width: 290px;
+	height: 30px;
+	border: none;
+	outline: none;
+	margin-left: 20px;
+	border: 1px solid #e1e1e1;
+	text-indent: 8px;
+	font-size: 10px;
+
+}
+
+/* input移动到时变色 */
+.seachinput input:focus {
+	border: 1px solid #ff6700;
+}
+
+/* input点击时没有字 */
+.seachinput input:focus::placeholder {
+	opacity: 0;
+}
+/* 导航栏box */
+.nav {
+	width: 100%;
+	height: 35px;
+	background-color: #FF6700;
+}
+/* 导航栏 */
+.navstyle {
+	width: 1000px;
+	margin: auto;
+	display: flex;
+}
+/* 导航栏的字 */
+.navnm {
+	height: 35px;
+	line-height: 35px;
+	align-items: center;
+	margin-right: 30px;
+	position: relative;
+	cursor: pointer;
+}
+
+.navnm a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: 500px;
+	font: 18px '微软';
+	padding: 0 21px;
+}
+
+/* 背景色：第一个孩子附上颜色 */
+.navnm:nth-child(1) {
+	background-color: #e94f0d;
+}
+/* 移动到时切换背景色 */
+.navnm:hover {
+	background-color: #e94f0d;
+}
+/* new的定位 */
+.navimg {
+	position: absolute;
+	top: -16px;
+	right: 18px;
+}
+/* 大图box */
+.bigimg {
+	width: 100%;
+	height: 400px;
+	/* 图片地址 不平铺 x轴居中 y轴居中 */
+	background: url(../img/62592bd08f665.jpg) no-repeat center center;
+}
+/* 版心 */
+.bx {
+	width: 1000px;
+	height: 374px;
+	margin: auto;
+	position: relative;
+}
+/* 12.2正式版 样式 */
+.two {
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	color: #f69d7f;
+	top: 67px;
+	right: 5px;
+	font: 16px '微软雅黑';
+}
+/* 更新日期 样式 */
+.update {
+	width: 164px;
+	height: 18px;
+	color: #FF4800;
+	position: absolute;
+	bottom: 127px;
+	right: 195px;
+	font: 15px '微软雅黑';
+	opacity: 0.8;
+}
+/* 新版特性 */
+.new {
+	width: 65px;
+	height: 20px;
+	position: absolute;
+	bottom: 127px;
+	right: 125px;
+}
+
+.new a {
+	color: #FF4800;
+	opacity: 0.8;
+	text-decoration: none;
+	text-decoration: underline;
+	font: 15px '微软雅黑','Arial';
+	cursor: pointer;
+}
+/* 支持 */
+.xin {
+	color: #FF4800;
+	position: absolute;
+	bottom: 99px;
+	right: 118px;
+	font: 15px '微软雅黑';
+	opacity: 0.8;
+}
+/* 立即下载按钮 */
+.btnnow{
+	width: 241px;
+	height: 56px;
+	background-image: url(../img/download.png);
+	border: none;
+	position:absolute;
+	bottom: 36px;	
+	right: 120px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.btnnow:hover{
+	background-image: url(../img/download_hover.png);
+}
+/* 二维码 */
+.erwei{
+	width: 89px;
+	height: 89px;
+	position: absolute;
+	right: 2px;
+	bottom: 61px;
+}
+/* 手机版下载 */
+.upphone{
+	width: 90px;
+	height: 22px;
+	background-image: url(../img/mobile_download.png);
+	position: absolute;
+	right: 1px;
+	bottom: 35px;
+	cursor: pointer;
+}
+.upphone:hover{
+	background-image: url(../img/mobile_download_hover.png);
+}

@@ -1,0 +1,417 @@
+/* 身体部分 */
+.bodybox {
+	width: 1000px;
+	margin: 35px auto;
+}
+.bodybox::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/* 左边区域 */
+.left {
+	width: 734px;
+	float: left;
+}
+
+
+/* 精彩皮肤标题 */
+.bodytitle {
+	height: 29px;
+	background: url(../img/side_title.png) no-repeat;
+}
+
+/* 皮肤box */
+.skinbox {
+	width: 100%;
+}
+
+.skinbox::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/* 一整块 */
+.bodycon {
+	width: 333px;
+	height: 157px;
+	position: relative;
+	float: left;
+	margin: 0 34px 13px 0;
+}
+
+/* 背景图片 */
+.bjimg {
+	width: 333px;
+	height: 157px;
+	background-image: url(../img/skin_border.png);
+}
+
+/* 背景图片里的图片 */
+.bjimg img {
+	margin: 7px 0 0 6px;
+}
+
+/* 文字加按钮的框 */
+.onetext {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 2px;
+	width: 332px;
+}
+
+/* 文字 */
+.onetext a {
+	color: #696969;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.onetext a:hover {
+	color: #FF8049;
+}
+
+/* 按钮 */
+.oneup {
+	display: block;
+	width: 72px;
+	height: 25px;
+	margin-left: 77px;
+}
+
+.oneup:hover {
+	background: url(../img/skin_download_hover.png) no-repeat;
+}
+
+
+/* 扩展功能box高度塌陷 */
+.extendbox::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+/* 扩展功能标题 */
+.bodytitle2 {
+	height: 29px;
+	background: url(../img/ex_func_title.png) no-repeat;
+}
+
+/* 一整个框 */
+.extend {
+	width: 90px;
+	float: left;
+	margin-right: 32px;
+}
+
+/* <!-- 截图 --> */
+.extendimg {
+	margin-top: 8px;
+	width: 90px;
+	height: 90px;
+	background: url(../img/id_1.png) no-repeat;
+}
+
+/* 按钮 */
+.extendup {
+	display: block;
+	width: 76px;
+	height: 23px;
+	background: url(../img/down_ex_func3.png) no-repeat;
+	background-position: 0 0;
+	margin: 10px auto;
+}
+
+.extendup:hover {
+	background: url(../img/down_ex_func3.png) no-repeat;
+	background-position: 0 -23px;
+}
+
+/* 手写输入 */
+.extendimg2 {
+	margin-top: 8px;
+	width: 90px;
+	height: 90px;
+	background: url(../img/id_2.png) no-repeat;
+}
+
+.extendup2 {
+	display: block;
+	width: 76px;
+	height: 23px;
+	background: url(../img/down_ex_func3.png) no-repeat;
+	background-position: -76px 0;
+	margin: 10px auto;
+}
+
+.extendup2:hover {
+	background: url(../img/down_ex_func3.png) no-repeat;
+	background-position: -76px -23px;
+}
+
+/* 皮肤盒子 */
+.extendimg3 {
+	margin-top: 8px;
+	width: 90px;
+	height: 90px;
+	background: url(../img/id_3.png) no-repeat;
+}
+
+.extendup3 {
+	display: block;
+	width: 76px;
+	height: 23px;
+	background: url(../img/down_ex_func3.png) no-repeat;
+	background-position: -152px 0;
+	margin: 10px auto;
+}
+
+.extendup3:hover {
+	background: url(../img/down_ex_func3.png) no-repeat;
+	background-position: -152px -23px;
+}
+
+/* 点点输入 */
+.extendimg4 {
+	margin-top: 8px;
+	width: 90px;
+	height: 90px;
+	background: url(../img/MouseInput.png) no-repeat;
+}
+
+.extendup4 {
+	display: block;
+	width: 76px;
+	height: 23px;
+	background: url(../img/down_ex_func3.png) no-repeat;
+	background-position: -228px 0;
+	margin: 10px auto;
+}
+
+.extendup4:hover {
+	background: url(../img/down_ex_func3.png) no-repeat;
+	background-position: -228px -23px;
+}
+
+/* 图片表情 */
+.extendimg5 {
+	margin-top: 8px;
+	width: 90px;
+	height: 90px;
+	background: url(../img/id_5.png) no-repeat;
+}
+
+.extendup5 {
+	display: block;
+	width: 76px;
+	height: 23px;
+	background: url(../img/down_ex_func3.png) no-repeat;
+	background-position: -304px 0;
+	margin: 10px auto;
+}
+
+.extendup5:hover {
+	background: url(../img/down_ex_func3.png) no-repeat;
+	background-position: -304px -23px;
+}
+
+/* 语音输入 */
+.extendimg6 {
+	margin-top: 8px;
+	width: 90px;
+	height: 90px;
+	background: url(../img/id_6_2.png) no-repeat;
+}
+
+.extendup6 {
+	display: block;
+	width: 76px;
+	height: 23px;
+	background: url(../img/down_ex_func3.png) no-repeat;
+	background-position: -380px 0;
+	margin: 10px auto;
+}
+
+.extendup6:hover {
+	background: url(../img/down_ex_func3.png) no-repeat;
+	background-position: -380px -23px;
+}
+
+
+/* 词库推荐 */
+
+/* 词库推荐标题 */
+.bodytitle3 {
+	margin-top: 8px;
+	height: 29px;
+	background: url(../img/dict_show_title.png) no-repeat;
+}
+
+/* 一整个框 */
+.lexicon {
+	width: 90px;
+	margin-right: 32px;
+	margin-top: 6px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+
+/* 图片 */
+.lexiconimg {
+	width: 90px;
+	height: 90px;
+	border: 1px solid #d7d7d7;
+	position: relative;
+	margin-bottom: 4px;
+}
+
+.lexiconimg img {
+	width: 84px;
+	height: 84px;
+	/* 垂直水平居中 */
+	position: absolute;
+	top: 50%;
+	/* 自身 */
+	transform: translate(-50%, -50%);
+}
+
+/* 文字 */
+.lexiconnm {
+	text-decoration: none;
+	color: #818181;
+	font: 12px 'Tahoma';
+}
+
+.lexiconnm:hover {
+	color: #FF8049;
+}
+
+
+/* 右边区域 */
+.right {
+	width: 266px;
+	float: right;
+}
+
+.right::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.oneimg {
+	display: block;
+	width: 266px;
+	height: 155px;
+	background: url(../img/barrier_free_banner.png) no-repeat;
+	/* 图片显示完整 */
+	background-size: contain;
+}
+
+.twoimg {
+	display: block;
+	width: 266px;
+	height: 222px;
+	background: url(../img/5fdc5e04ea1fa.jpg) no-repeat;
+	margin-top: 10px;
+}
+
+.threeimg {
+	width: 240px;
+	margin-top: 10px;
+}
+
+.bodytitle4 {
+	width: 266px;
+	height: 29px;
+	background: url(../img/new_activity.png) no-repeat;
+	background-size: contain;
+}
+
+.threeimg ul li {
+	height: 33px;
+	line-height: 28px;
+	list-style: none;
+	background: url(../img/activity_bg.png);
+	margin-top: 2px;
+
+}
+
+.threeimg ul li a {
+	text-decoration: none;
+	margin-left: 15px;
+	font: 12px 'Tahoma';
+}
+
+.fa {
+	color: #FF0000;
+}
+
+.sa {
+	color: #696969;
+}
+
+.ta {
+	color: #FF0000;
+}
+
+.threeimg ul li a:hover {
+	color: #FF8049;
+}
+
+.fourimg {
+	display: block;
+	width: 266px;
+	height: 174px;
+	background: url(../img/focus_ewn.png) no-repeat;
+	margin-top: 16px;
+}
+
+.fifimg {
+	display: block;
+	width: 266px;
+	height: 192px;
+	background: url(../img/5afbd36307f32.jpg) no-repeat;
+	margin-top: 16px;
+	position: relative;
+}
+
+.more {
+	width: 65px;
+	color: #ea7a4c;
+	position: absolute;
+	top: 38px;
+	right: 78px;
+	font: 18px 'Microsoft Yahei';
+
+}
+
+.fifimg a {
+	text-decoration: none;
+	width: 68px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #dedede;
+	background-color: #f1f2f2;
+	font-size: 12px;
+	color: #333333;
+	text-align: center;
+	border-radius: 2px;
+}
+
+.nowlook {
+	position: absolute;
+	top: 34px;
+	right: 0px;
+}
+
+.nowup {
+	position: absolute;
+	bottom: 69px;
+	right: 0px;
+}

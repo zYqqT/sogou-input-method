@@ -1,0 +1,38 @@
+.bottombox{
+	height: 260px;
+	background-color: #f5f5f5;
+}
+.bottom{
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+	color: #64696f;
+}
+.hang1{
+	width: 543px;
+	height: 23px;
+	margin: auto;
+	font: 16px "微软雅黑";
+	padding-top:40px ;
+}
+.smlogo{
+	width: 18px;
+	height: 14px;
+	background: url(../img/skin_icon.png) no-repeat;
+	display: inline-block;
+}
+.bottom a{
+	text-decoration: none;
+	color: #64696f;
+}
+.hang2{
+	margin-top: 12px;
+}
+.hang3{
+	margin-top: 22px;
+	font: 12px 'Arial';
+}
+.hang4{
+	margin-top: 12px;
+	font-family:"Tahoma";
+}
